@@ -43,7 +43,22 @@
 	<style name="skin_thumbtext_style" url="%SWFPATH%/plugins/textfield.swf" align="bottom" width="100%" autoheight="true" y="5" enabled="false" background="false" border="false" css="text-align:center; color:#FFFFFF; font-family:Arial; font-weight:bold; font-size:10px;" textshadow="1" />
 
 	<!-- skin_hotspotstyle - style for the hotspots (note - the onclick event will be overwritten here and can't be set directly at the hotspot! the hotspots need to have a 'linkedscene' attribute to be clickable) -->
-	<style name="skin_hotspotstyle" url="vtourskin_hotspot.png" scale="0.5" edge="top" oy="0" distorted="false"
+	<style name="skin_hotspotstyle_front" url="vtourskin_hotspot_front.png" scale="0.5" edge="top" oy="0" distorted="false"
+	       tooltip=""
+	       onclick="if(linkedscene, skin_hidetooltips(); tween(scale,0.25,0.5); tween(oy,-20,0.5); tween(alpha,0,0.5); looktohotspot(); loadscene(get(linkedscene),null,get(skin_settings.loadscene_flags),get(skin_settings.loadscene_blend)); skin_updatescroll(); );"
+	       onloaded="if(skin_settings.tooltips_hotspots, if(linkedscene, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); ));"
+	       />
+	<style name="skin_hotspotstyle_back" url="vtourskin_hotspot_back.png" scale="0.5" edge="top" oy="0" distorted="false"
+	       tooltip=""
+	       onclick="if(linkedscene, skin_hidetooltips(); tween(scale,0.25,0.5); tween(oy,-20,0.5); tween(alpha,0,0.5); looktohotspot(); loadscene(get(linkedscene),null,get(skin_settings.loadscene_flags),get(skin_settings.loadscene_blend)); skin_updatescroll(); );"
+	       onloaded="if(skin_settings.tooltips_hotspots, if(linkedscene, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); ));"
+	       />
+	<style name="skin_hotspotstyle_left" url="vtourskin_hotspot_left.png" scale="0.5" edge="top" oy="0" distorted="false"
+	       tooltip=""
+	       onclick="if(linkedscene, skin_hidetooltips(); tween(scale,0.25,0.5); tween(oy,-20,0.5); tween(alpha,0,0.5); looktohotspot(); loadscene(get(linkedscene),null,get(skin_settings.loadscene_flags),get(skin_settings.loadscene_blend)); skin_updatescroll(); );"
+	       onloaded="if(skin_settings.tooltips_hotspots, if(linkedscene, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); ));"
+	       />
+	<style name="skin_hotspotstyle_right" url="vtourskin_hotspot_right.png" scale="0.5" edge="top" oy="0" distorted="false"
 	       tooltip=""
 	       onclick="if(linkedscene, skin_hidetooltips(); tween(scale,0.25,0.5); tween(oy,-20,0.5); tween(alpha,0,0.5); looktohotspot(); loadscene(get(linkedscene),null,get(skin_settings.loadscene_flags),get(skin_settings.loadscene_blend)); skin_updatescroll(); );"
 	       onloaded="if(skin_settings.tooltips_hotspots, if(linkedscene, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); ));"
@@ -503,6 +518,10 @@
 		  ,
 			tween(layer[skin_buttonglow].alpha, 0.0, 0.1, default, set(layer[skin_buttonglow].parent, null); set(layer[skin_buttonglow].visible, false); );
 		  );
+	</action>
+	
+	<action name="hide_vtourskin_all" autorun="onstart">
+		skin_hideskin();
 	</action>
 
 	<action name="skin_hideskin">

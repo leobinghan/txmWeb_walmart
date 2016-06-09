@@ -34,9 +34,113 @@
 		if(startscene === null, copy(startscene,scene[0].name));
 		loadscene(get(startscene), null, MERGE);
 	</action>
-
 	
-	<scene name="scene_walmart_1" title="walmart_1" onstart="" thumburl="panos/walmart_1.tiles/thumb.jpg" lat="" lng="" heading="">
+	<!-- the map image -->
+	<layer name="map_walmart" url="graphics/walmart_map.jpg" keep="true" enabled="true" visible="true" handcursor="false" capture="false"
+	       align="righttop"
+	       scale="0.25" scalechildren="true"
+	       onclick="openmap(map_walmart);"
+	       />
+	       
+	<!-- This action is used to change maps
+	<action name="change_map">
+		set(layer[%2].enabled, false);
+		set(layer[%2].visible, false);
+		
+		set(layer[%1].enabled, true);
+		set(layer[%1].visible, true);
+		
+		mapspot_loadscene(%3, %1);
+	</action>
+	-->
+	
+	
+	<!-- map opening - scale the map up to 100% (or smaller if the screen is too small) -->
+	<action name="openmap">
+		set(layer[%1].onclick, closemap(%1); );
+		layer[%1].changeorigin(center,center);
+
+		set(bigscale,1);
+		if(layer[%1].imagewidth GT stagewidth, div(bigscale, stagewidth, layer[%1].imagewidth); );
+
+		tween(layer[%1].x, 0);
+		tween(layer[%1].y, 0);
+		tween(layer[%1].scale, get(bigscale));
+	</action>
+
+	<!-- map closing - scale the map back to 25% -->
+	<action name="closemap">
+		set(layer[%1].onclick, openmap(%1); );
+		layer[%1].changeorigin(righttop,righttop);
+
+		tween(layer[%1].x, 0);
+		tween(layer[%1].y, 0);
+		tween(layer[%1].scale, 0.25);
+	</action>
+	
+	<!-- action for loading the scene when clicking on the map spots -->
+	<action name="mapspot_loadscene">
+		if(layer[%2].scale GT 0.25,
+			<!-- special mode for zoomed map: hide big map, loadscene, show small map -->
+			set(layer[%2].enabled, false);
+			tween(layer[%2].alpha, 0.0, 0.25, default,
+				loadscene(%1, null, MERGE, BLEND(1));
+
+				set(layer[%2].onclick, openmap(%2); );
+				layer[%2].changeorigin(righttop,righttop);
+
+				set(layer[%2].x, 0);
+				set(layer[%2].y, 0);
+				set(layer[%2].scale, 0.25);
+
+				set(events[sceneload].onloadcomplete,
+					delayedcall(1,
+						tween(layer[%2].alpha, 1.0, 0.5, default, set(layer[%2].enabled, true); );
+					  );
+				  );
+			  );
+		  ,
+			<!-- small map: just load the scene -->
+			loadscene(%1, null, MERGE, BLEND(1));
+		  );
+	</action>
+	
+	<!-- the map spot images -->
+	<style name="mapspot_walmart" keep="true" url="graphics/camicon.png" parent="map_walmart" align="lefttop" edge="center" scale.mobile="2" />
+	
+	
+	<!-- define map spot location and which spot refer to which scene -->
+	<layer name="spot1" style="mapspot_walmart" x="236" y="103" zorder="1" onclick="mapspot_loadscene(scene_walmart_1, map_walmart);" />
+	<layer name="spot2" style="mapspot_walmart" x="236" y="291" zorder="1" onclick="mapspot_loadscene(scene_walmart_2, map_walmart);" />
+	<layer name="spot3" style="mapspot_walmart" x="409" y="103" zorder="1" onclick="mapspot_loadscene(scene_walmart_3, map_walmart);" />
+	<layer name="spot4" style="mapspot_walmart" x="409" y="291" zorder="1" onclick="mapspot_loadscene(scene_walmart_4, map_walmart);" />
+	<layer name="spot5" style="mapspot_walmart" x="583" y="103" zorder="1" onclick="mapspot_loadscene(scene_walmart_5, map_walmart);" />
+	<layer name="spot6" style="mapspot_walmart" x="583" y="291" zorder="1" onclick="mapspot_loadscene(scene_walmart_6, map_walmart);" />
+	
+	
+	<!-- active spot image (overlays the normal spot) -->
+	<layer name="activespot" url="graphics/camicon_red.png" keep="true"
+	       align="lefttop" zorder="2" scale.mobile="2"
+	       />
+
+	<!-- radar layer (overlays the normal spot too, but is behind the activespot image) -->
+	<layer name="radar" keep="true"
+	       url.flash="%SWFPATH%/plugins/radar.swf"
+	       url.html5="%SWFPATH%/plugins/radar.js"
+	       align="center" zorder="1"
+	       scale.mobile="1.5"
+	       fillalpha="0.5" fillcolor="0x7F5F3F"
+	       linewidth="1.0" linecolor="0xE0E0A0" linealpha="0.5"
+	       />
+	
+	
+	<scene name="scene_walmart_1" title="walmart_1" onstart="updateradar();" thumburl="panos/walmart_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		<action name="updateradar">
+			set(layer[activespot].parent, spot1);
+			set(layer[radar].parent, spot1);
+			<!-- Second parameter is the angel of initial view in the map -->
+			set(layer[radar].heading, 160);
+		</action>
 
 		<view hlookat="-146.245" vlookat="3.386" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -58,11 +162,17 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-148.508" atv="-2.484" linkedscene="scene_walmart_2" />
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="-148.508" atv="-2.484" linkedscene="scene_walmart_2" />
 
 	</scene>
 
-	<scene name="scene_walmart_2" title="walmart_2" onstart="" thumburl="panos/walmart_2.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_walmart_2" title="walmart_2" onstart="updateradar();" thumburl="panos/walmart_2.tiles/thumb.jpg" lat="" lng="" heading="">
+		<action name="updateradar">
+			set(layer[activespot].parent, spot2);
+			set(layer[radar].parent, spot2);
+			<!-- Second parameter is the angel of initial view in the map -->
+			set(layer[radar].heading, 160);
+		</action>
 
 		<view hlookat="30.961" vlookat="6.900" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -84,11 +194,17 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-142.885" atv="-1.226" linkedscene="scene_walmart_1" />
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="-142.885" atv="-1.226" linkedscene="scene_walmart_1" />
 
 	</scene>
 
-	<scene name="scene_walmart_3" title="walmart_3" onstart="" thumburl="panos/walmart_3.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_walmart_3" title="walmart_3" onstart="updateradar();" thumburl="panos/walmart_3.tiles/thumb.jpg" lat="" lng="" heading="">
+		<action name="updateradar">
+			set(layer[activespot].parent, spot3);
+			set(layer[radar].parent, spot3);
+			<!-- Second parameter is the angel of initial view in the map -->
+			set(layer[radar].heading, 160);
+		</action>
 
 		<view hlookat="-182.899" vlookat="-1.786" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -110,11 +226,17 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="174.099" atv="-5.083" linkedscene="scene_walmart_4" />
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="174.099" atv="-5.083" linkedscene="scene_walmart_4" />
 
 	</scene>
 
-	<scene name="scene_walmart_4" title="walmart_4" onstart="" thumburl="panos/walmart_4.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_walmart_4" title="walmart_4" onstart="updateradar();" thumburl="panos/walmart_4.tiles/thumb.jpg" lat="" lng="" heading="">
+		<action name="updateradar">
+			set(layer[activespot].parent, spot4);
+			set(layer[radar].parent, spot4);
+			<!-- Second parameter is the angel of initial view in the map -->
+			set(layer[radar].heading, 160);
+		</action>
 
 		<view hlookat="46.321" vlookat="2.637" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -136,11 +258,17 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-137.108" atv="-4.847" linkedscene="scene_walmart_3" />
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="-137.108" atv="-4.847" linkedscene="scene_walmart_3" />
 
 	</scene>
 
-	<scene name="scene_walmart_5" title="walmart_5" onstart="" thumburl="panos/walmart_5.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_walmart_5" title="walmart_5" onstart="updateradar();" thumburl="panos/walmart_5.tiles/thumb.jpg" lat="" lng="" heading="">
+		<action name="updateradar">
+			set(layer[activespot].parent, spot5);
+			set(layer[radar].parent, spot5);
+			<!-- Second parameter is the angel of initial view in the map -->
+			set(layer[radar].heading, 160);
+		</action>
 
 		<view hlookat="-16.560" vlookat="0.188" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -162,11 +290,17 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-15.857" atv="-5.690" linkedscene="scene_walmart_6" />
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="-15.857" atv="-5.690" linkedscene="scene_walmart_6" />
 
 	</scene>
 
-	<scene name="scene_walmart_6" title="walmart_6" onstart="" thumburl="panos/walmart_6.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_walmart_6" title="walmart_6" onstart="updateradar();" thumburl="panos/walmart_6.tiles/thumb.jpg" lat="" lng="" heading="">
+		<action name="updateradar">
+			set(layer[activespot].parent, spot6);
+			set(layer[radar].parent, spot6);
+			<!-- Second parameter is the angel of initial view in the map -->
+			set(layer[radar].heading, 160);
+		</action>
 
 		<view hlookat="132.527" vlookat="3.124" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -188,7 +322,7 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="133.656" atv="-5.594" linkedscene="scene_walmart_5" />
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="133.656" atv="-5.594" linkedscene="scene_walmart_5" />
 
 	</scene>
 
