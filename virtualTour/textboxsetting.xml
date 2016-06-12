@@ -102,7 +102,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 
    -->
 
- <intropic name="scene_Dinning_Room" id="" count="4">
+ <intropic name="scene_walmart_1" id="" count="4">
  <box name="box_0" title="蒙娜丽莎" imgurl="image_b/DSC00091.jpg" simgurl="image_s/DSC09439.jpg" text="test_1" link="http://www.google.ca/"/>
  <box name="box_1" title="标题2" imgurl="image_b/DSC09429.jpg" simgurl="image_s/DSC09429.jpg" text="test_2"/>
  <box name="box_2" title="标题3" imgurl="image_b/DSC09457.jpg" simgurl="image_s/DSC09457.jpg" text="test_3" />
@@ -110,7 +110,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
  </intropic>
 
 
- <intropic name="scene_Main_Lobby" id="" count="2">
+ <intropic name="scene_walmart_1" id="" count="2">
  <box name="box_0" title="标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
  <box name="box_1" title="标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
  <box name="box_2" title="标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>
@@ -118,7 +118,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
  </intropic>
 
  
- <intropic name="scene_1Outside_Door" id="" count="4">
+ <intropic name="scene_walmart_1" id="" count="4">
  <box name="box_0" title="常驻图文标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
  <box name="box_1" title="常驻图文标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
  <box name="box_2" title="常驻图文标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>

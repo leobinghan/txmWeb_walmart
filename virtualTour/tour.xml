@@ -1,6 +1,8 @@
 <krpano version="1.18" title="Virtual Tour" onstart="startup();">
 
 	<include url="skin/vtourskin.xml" />
+	<include url="textbox.xml" />
+	<include url="textboxsetting.xml" />
 
 	<!-- set skin settings: bingmaps? gyro? thumbnails? tooltips? -->
 	<skin_settings maps="false"
@@ -133,7 +135,6 @@
 	       linewidth="1.0" linecolor="0xE0E0A0" linealpha="0.5"
 	       />
 	
-	
 	<scene name="scene_walmart_1" title="walmart_1" onstart="updateradar();" thumburl="panos/walmart_1.tiles/thumb.jpg" lat="" lng="" heading="">
 		<action name="updateradar">
 			set(layer[activespot].parent, spot1);
@@ -142,8 +143,9 @@
 			set(layer[radar].heading, 160);
 		</action>
 
-		<view hlookat="-146.245" vlookat="3.386" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
+		<!-- <view hlookat="-146.245" vlookat="3.386" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
+		<view hlookat="-146.245" vlookat="3.386" vlookatmax="50" fovtype="MFOV" fov="110" fovmin="90" fovmax="125" limitview="range" />
+		
 		<preview url="panos/walmart_1.tiles/preview.jpg" />
 
 		<image type="CUBE" multires="true" tilesize="512">
@@ -163,6 +165,24 @@
 
 		<!-- place your scene hotspots here -->
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="-148.508" atv="-2.484" linkedscene="scene_walmart_2" />
+		
+		<!-- this hotspot is used to show the popup window which contains pictures and descriptions -->
+		<hotspot name="hs1" fillcolor="000000" fillalpha="0.5" borderwidth="3.0" bordercolor="000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1);"
+	         >
+		<point ath="-10" atv="-4" />
+		<point ath="-10" atv="7" />
+		<point ath="-35" atv="20" />
+		<point ath="-75" atv="10" />
+		<point ath="-75" atv="-5" />
+		
+	</hotspot>
 
 	</scene>
 
@@ -174,8 +194,9 @@
 			set(layer[radar].heading, 160);
 		</action>
 
-		<view hlookat="30.961" vlookat="6.900" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
+		<!-- <view hlookat="30.961" vlookat="6.900" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
+		<view hlookat="30.961" vlookat="6.900" vlookatmax="50" fovtype="MFOV" fov="110" fovmin="90" fovmax="125" limitview="range" />
+		
 		<preview url="panos/walmart_2.tiles/preview.jpg" />
 
 		<image type="CUBE" multires="true" tilesize="512">
@@ -206,7 +227,8 @@
 			set(layer[radar].heading, 160);
 		</action>
 
-		<view hlookat="-182.899" vlookat="-1.786" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<!-- <view hlookat="-182.899" vlookat="-1.786" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
+		<view hlookat="-182.899" vlookat="-1.786" vlookatmax="50" fovtype="MFOV" fov="110" fovmin="90" fovmax="125" limitview="range" />
 
 		<preview url="panos/walmart_3.tiles/preview.jpg" />
 
@@ -238,7 +260,8 @@
 			set(layer[radar].heading, 160);
 		</action>
 
-		<view hlookat="46.321" vlookat="2.637" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<!-- <view hlookat="46.321" vlookat="2.637" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
+		<view hlookat="46.321" vlookat="2.637" vlookatmax="50" fovtype="MFOV" fov="110" fovmin="90" fovmax="125" limitview="range" />
 
 		<preview url="panos/walmart_4.tiles/preview.jpg" />
 
@@ -270,7 +293,8 @@
 			set(layer[radar].heading, 160);
 		</action>
 
-		<view hlookat="-16.560" vlookat="0.188" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<!-- <view hlookat="-16.560" vlookat="0.188" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
+		<view hlookat="-16.560" vlookat="0.188" vlookatmax="50" fovtype="MFOV" fov="110" fovmin="90" fovmax="125" limitview="range" />
 
 		<preview url="panos/walmart_5.tiles/preview.jpg" />
 
@@ -302,7 +326,8 @@
 			set(layer[radar].heading, 160);
 		</action>
 
-		<view hlookat="132.527" vlookat="3.124" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<!-- <view hlookat="132.527" vlookat="3.124" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
+		<view hlookat="132.527" vlookat="3.124" vlookatmax="50" fovtype="MFOV" fov="110" fovmin="90" fovmax="125" limitview="range" />
 
 		<preview url="panos/walmart_6.tiles/preview.jpg" />
 
