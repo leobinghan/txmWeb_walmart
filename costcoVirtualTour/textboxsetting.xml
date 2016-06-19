@@ -1,0 +1,206 @@
+<krpano>
+
+
+   <!-- 
+pic_ratio 文字在横屏时所占的窗口比例，填写百分比，百分比小于15%时，则全屏显示图片，大于85%，则全屏显示文字。
+pic_ratio_portrait 与上类似，设置的是竖屏时的占比。
+pic_align 设置文字在左在右，可选的数值为lefttop和righttop
+pic_resize_min 设置图片的最小缩放比例，默认值为1，不能设置大于1或者小于0的数值。数值大于0或小于等于1
+pic_resize_max 设置图片的最大缩放比例，默认值为1，不能设置小于1的数值。数值大于或等于1。
+linecolor 中间分隔线颜色，十六进制
+linealpha 中间分隔线透明度
+separation_line_visible 是否在横屏时显示关闭按钮与其它按钮之间的竖向分隔线 其颜色和透明度与中间分隔线保持一致
+bgcolor 背景颜色，十六进制
+bgalpha 背景透明度
+bgborder  背景边框设置
+bgroundedge 背景圆角设置
+bgshadow  背景阴影设置 
+bgwidth 背景宽度比例，百分比
+bgheight 背景高度比例，百分比         
+closebutton_color 关闭按钮是否在正常状态时呈现颜色 
+next_and_prev_button  是否显示左右两个箭头按钮，显示的话则提供多个热点图文切换的相册功能 常驻相册为 open_textbox(0,name); 默认为false，不用修改
+next_and_prev_button_color 左右按钮是否在正常状态时呈现颜色，默认是白色，鼠标悬停时出现颜色
+title_normal 标题字体设置
+title_mobile 标题字体手机端设置 
+text_normal 文本字体设置
+text_mobile 文本字体手机端设置
+zoomtocursor 图片缩放时是否在鼠标位置
+autoplaysound 是否进入图文时自动播放音频
+button  可设置音频按钮和链接按钮的位置 music|link 或 link|music
+linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可以通过修改psd文件选择自己的样式
+ 
+-->
+
+
+	<textbox_settings pic_ratio="36%"
+	              pic_ratio_portrait="35%"
+	              pic_align="lefttop"
+	              pic_resize_min="1"
+	              pic_resize_max="1"
+
+	              linecolor="0xFFFFFF"
+	              linealpha="0.9"
+                separation_line_visible="false"
+
+	              bgcolor="0x000000" 
+	              bgalpha="0.8"
+	              bgborder="0 0xFFFFFF 0"
+	              bgroundedge="0"
+	              bgshadow="0 0 0.5 0xFFFFFF 0"   
+	              bgwidth="100%"
+	              bgheight="100%"   
+
+	              closebutton_color="false"
+                enlarge_button="true"
+	              
+	              next_and_prev_button_color="false"
+                next_and_prev_loop="true"
+
+	              title_normal="text-align:center; color:#FFFFFF; font-family:Arial; font-weight:bold; font-size:28px;"
+	              title_mobile="text-align:center; color:#FFFFFF; font-family:Arial; font-weight:bold; font-size:30px;"  
+	              text_normal="color:#FFFFFF; font-family:Arial; font-size:16px;"
+	              text_mobile="text-indent:52px;color:#FFFFFF; font-family:Arial; font-size:24px;"
+
+	              zoomtocursor="false"
+                autoplaysound="true"
+                
+                button="music|link"
+                linkbutton="1"
+
+                change_pic_ratio=""
+                change_pic_ratio_portrait=""
+                skintextbox=""
+                next_and_prev_button="false"
+
+                
+
+	/>
+
+<!-- 设置用户点击关闭按钮后的自定义动作
+
+   -->
+
+<action name="useraction">    
+
+</action>
+
+
+
+
+<!-- intropic的name对应的是scene的name。]
+               id默认为空，请不要删除。
+               count是该场景里共有几个要展示的热点图文，如有四个则为4。
+
+     box的name要从box_0开始，而且必须是box_开头，下划线后的数字就是图文的序号，box_0的数字0与open_textbox(0)中的数字0对应。也就是说只能按照这个规律命名。
+     当name为 skintextbox 时，为常驻图文
+     title是标题。
+     text的取值要与下面data的name对应上。
+     imgurl为图片路径，可选择体积较大的图片，
+     simgurl为手机端图片的路径，可选择较小体积的图片地址 
+     sound为音频文件路径
+     link为对应的链接，只支持http链接
+
+   -->
+
+ <intropic name="scene_Dinning_Room" id="" count="4">
+ <box name="box_0" title="蒙娜丽莎" imgurl="image_b/DSC00091.jpg" simgurl="popupImage/DSC09439.jpg" text="test_1" link="http://www.google.ca/"/>
+ <box name="box_1" title="标题2" imgurl="image_b/DSC09429.jpg" simgurl="popupImage/DSC09429.jpg" text="test_2"/>
+ <box name="box_2" title="标题3" imgurl="image_b/DSC09457.jpg" simgurl="popupImage/DSC09457.jpg" text="test_3" />
+ <box name="box_3" title="标题4" imgurl="image_b/DSC09460.jpg" simgurl="popupImage/DSC09460.jpg" text="test_4" /> 
+ </intropic>
+
+
+ <intropic name="scene_Main_Lobby" id="" count="2">
+ <box name="box_0" title="标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
+ <box name="box_1" title="标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
+ <box name="box_2" title="标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>
+ <box name="box_3" title="标题4" imgurl="image_b/DSC09453.jpg" simgurl="image_s/DSC09453.jpg" text="test_2"/>
+ </intropic>
+
+ 
+ <intropic name="scene_1Outside_Door" id="" count="4">
+ <box name="box_0" title="常驻图文标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
+ <box name="box_1" title="常驻图文标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
+ <box name="box_2" title="常驻图文标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>
+ <box name="box_3" title="常驻图文标题4" imgurl="image_b/DSC09453.jpg" simgurl="image_s/DSC09453.jpg" text="test_2"/> 
+ </intropic>
+
+  
+
+
+    <data name="test_1"> 
+
+          <p align="left"  style="text-indent:15mm;">
+
+<font face="Arial" size="14" style="text-indent:15mm;font-size:15px;">
+<textformat indent="32"  style="text-indent:15mm;">
+
+这在中国乃至世界绘画史上都是独一无二的。在五米多长的画卷里，共绘了814个各色人物，牛、骡、驴等牲畜73匹，车、轿二十多辆，大小船只二十九艘。房屋、桥梁、城楼等各有特色，体现了宋代建筑的特征。具有很高的历史价值和艺术价值。 
+  </textformat>
+  
+  </font>
+ 
+  </p>
+<br /> 
+           <p align="left" style="text-indent:32px;">
+
+
+<textformat indent="32" style="text-indent:32px;">
+  <br /> 
+作为文艺复兴时期作卓越的代表人物，他的成就和贡献是多方面的。《蒙娜丽莎》描绘了一位端庄秀美的西方妇女肖像，她面庞秀丽，形象逼真，似乎是真人的存在。坦然自信的神态流露出不可捉摸的带有神秘的微笑，呈现出一种高贵而不可侵犯的尊严。 
+  </textformat>
+ 
+  </p> 
+  <br /> 
+          <p align="left">
+
+
+<textformat indent="32" style="text-indent:32px;">
+  <br /> 
+汴河是北宋国家漕运枢纽，商业交通要道，从画面上可以看到人烟稠密，粮船云集，人们有在茶馆休息的，有在看相算命的，有在饭铺进餐的。还有"王家纸马店"，是扫墓卖祭品的，河里船只往来，首尾相接，或纤夫牵拉，或船夫摇橹，有的满载货物，逆流而上，有的靠岸停泊，正紧张地卸货。横跨汴河上的是一座规模宏大的木质拱桥，它结构精巧，形式优美。宛如飞虹，故名虹桥。有一只大船正待过桥。船夫们有用竹竿撑的；有用长竿钩住桥梁的；有用麻绳挽住船的；还有几人忙着放下桅杆，以便船只通过。邻船的人也在指指点点地象在大声吆喝着什么。船里船外都在为此船过桥而忙碌着。桥上的人，也伸头探脑地在为过船的紧张情景捏了一把汗。这里是名闻遐迩的虹桥码头区，车水马龙，熙熙攘攘，名副其实地是一个水陆交通的会合点。
+  </textformat>
+ 
+  </p> 
+
+  <br /> 
+          <p align="left">
+
+
+<textformat indent="32" style="text-indent:32px;">
+  <br /> 
+以高大的城楼为中心，两边的屋宇鳞次栉比，有茶坊、酒肆、脚店、肉铺、庙宇、公廨等等。商店中有绫罗绸缎、珠宝香料、香火纸马等的专门经营，此外尚有医药门诊，大车修理、看相算命、修面整容，各行各业，应有尽有，大的商店门首还扎“彩楼欢门”，悬挂市招旗帜，招揽生意，街市行人，摩肩接踵，川流不息，有做生意的商贾，有看街景的士绅，有骑马的官吏，有叫卖的小贩，有乘座轿子的大家眷属，有身负背篓的行脚僧人，有问路的外乡游客，有听说书的街巷小儿，有酒楼中狂饮的豪门子弟，有城边行乞的残疾老人，男女老幼，士农工商，三教九流，无所不备。交通运载工具：有轿子、骆驼、牛马车、人力车，有太平车、平头车，形形色色，样样俱全。绘色绘形地展现在人们的眼前。
+  </textformat>
+ 
+  </p> 
+
+	
+	</data>
+
+	<data name="test_2"><![CDATA[
+   总有那么一些歌，让我们感伤、落泪。但其实让我们伤感的并不是歌曲本身，而是藏在回忆里的那些人。]]>
+  </data>
+	
+
+	<data name="test_3">
+              <p align="left">
+
+
+<textformat indent="32">
+  <br /> 
+以高大的城楼为中心，两边的屋宇鳞次栉比，有茶坊、酒肆、脚店、肉铺、庙宇、公廨等等。商店中有绫罗绸缎、珠宝香料、香火纸马等的专门经营，此外尚有医药门诊，大车修理、看相算命、修面整容，各行各业，应有尽有，大的商店门首还扎“彩楼欢门”，悬挂市招旗帜，招揽生意，街市行人，摩肩接踵，川流不息，有做生意的商贾，有看街景的士绅，有骑马的官吏，有叫卖的小贩，有乘座轿子的大家眷属，有身负背篓的行脚僧人，有问路的外乡游客，有听说书的街巷小儿，有酒楼中狂饮的豪门子弟，有城边行乞的残疾老人，男女老幼，士农工商，三教九流，无所不备。交通运载工具：有轿子、骆驼、牛马车、人力车，有太平车、平头车，形形色色，样样俱全。绘色绘形地展现在人们的眼前。
+  </textformat>
+ 
+  </p> 
+	</data>
+
+	<data name="test_4">
+        打开IIS微软管理控制台，右键单击本地计算机名字，然后点击属性。[br/]
+	</data>
+
+	
+
+
+
+
+	
+</krpano>

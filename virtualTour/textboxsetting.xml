@@ -102,105 +102,1092 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 
    -->
 
- <intropic name="scene_walmart_1" id="" count="4">
- <box name="box_0" title="蒙娜丽莎" imgurl="image_b/DSC00091.jpg" simgurl="image_s/DSC09439.jpg" text="test_1" link="http://www.google.ca/"/>
- <box name="box_1" title="标题2" imgurl="image_b/DSC09429.jpg" simgurl="image_s/DSC09429.jpg" text="test_2"/>
- <box name="box_2" title="标题3" imgurl="image_b/DSC09457.jpg" simgurl="image_s/DSC09457.jpg" text="test_3" />
- <box name="box_3" title="标题4" imgurl="image_b/DSC09460.jpg" simgurl="image_s/DSC09460.jpg" text="test_4" /> 
- </intropic>
-
-
  <intropic name="scene_walmart_1" id="" count="2">
- <box name="box_0" title="标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
- <box name="box_1" title="标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
- <box name="box_2" title="标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>
- <box name="box_3" title="标题4" imgurl="image_b/DSC09453.jpg" simgurl="image_s/DSC09453.jpg" text="test_2"/>
+	 <box name="box_0" title="BOIRON Coryzalia 儿童感冒滴剂 30*1ml" 
+	 	  imgurl="popupImages/BOIRONCoryzalia儿童感冒滴剂30-1ml.jpg" 
+	 	  simgurl="popupImages/BOIRONCoryzalia儿童感冒滴剂30-1ml.jpg" 
+	 	  text="BOIRONCoryzalia" link="https://wap.koudaitong.com/v2/goods/2xcs3ep7965y9"/>
+	 <box name="box_1" title="天然顺势BoironStodal咳嗽糖浆1-11岁" 
+	      imgurl="popupImages/天然顺势BoironStodal咳嗽糖浆1-11岁.jpg" 
+	      simgurl="popupImages/天然顺势BoironStodal咳嗽糖浆1-11岁.jpg" 
+	      text="BoironStodal" link="https://wap.koudaitong.com/v2/goods/2ok851coxr5zl"/>
  </intropic>
 
- 
- <intropic name="scene_walmart_1" id="" count="4">
- <box name="box_0" title="常驻图文标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
- <box name="box_1" title="常驻图文标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
- <box name="box_2" title="常驻图文标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>
- <box name="box_3" title="常驻图文标题4" imgurl="image_b/DSC09453.jpg" simgurl="image_s/DSC09453.jpg" text="test_2"/> 
+	<data name="BOIRONCoryzalia">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： BOIRON
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 30*1ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	
+	<data name="BoironStodal">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Boiron
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 125ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	
+	
+<intropic name="scene_walmart_2" id="" count="1">
+	 <box name="box_0" title="TUMS 钙片750毫克 100粒" 
+	 	  imgurl="popupImages/TUMS钙片750毫克100粒.jpg" 
+	 	  simgurl="popupImages/TUMS钙片750毫克100粒.jpg" 
+	 	  text="TUMS钙片750毫克100粒" link="https://wap.koudaitong.com/v2/goods/2oe1jysk1bz9d"/>
  </intropic>
-
-  
-
-
-    <data name="test_1"> 
-
-          <p align="left"  style="text-indent:15mm;">
-
-<font face="Arial" size="14" style="text-indent:15mm;font-size:15px;">
-<textformat indent="32"  style="text-indent:15mm;">
-
-这在中国乃至世界绘画史上都是独一无二的。在五米多长的画卷里，共绘了814个各色人物，牛、骡、驴等牲畜73匹，车、轿二十多辆，大小船只二十九艘。房屋、桥梁、城楼等各有特色，体现了宋代建筑的特征。具有很高的历史价值和艺术价值。 
-  </textformat>
-  
-  </font>
- 
-  </p>
-<br /> 
-           <p align="left" style="text-indent:32px;">
-
-
-<textformat indent="32" style="text-indent:32px;">
-  <br /> 
-作为文艺复兴时期作卓越的代表人物，他的成就和贡献是多方面的。《蒙娜丽莎》描绘了一位端庄秀美的西方妇女肖像，她面庞秀丽，形象逼真，似乎是真人的存在。坦然自信的神态流露出不可捉摸的带有神秘的微笑，呈现出一种高贵而不可侵犯的尊严。 
-  </textformat>
- 
-  </p> 
-  <br /> 
-          <p align="left">
-
-
-<textformat indent="32" style="text-indent:32px;">
-  <br /> 
-汴河是北宋国家漕运枢纽，商业交通要道，从画面上可以看到人烟稠密，粮船云集，人们有在茶馆休息的，有在看相算命的，有在饭铺进餐的。还有"王家纸马店"，是扫墓卖祭品的，河里船只往来，首尾相接，或纤夫牵拉，或船夫摇橹，有的满载货物，逆流而上，有的靠岸停泊，正紧张地卸货。横跨汴河上的是一座规模宏大的木质拱桥，它结构精巧，形式优美。宛如飞虹，故名虹桥。有一只大船正待过桥。船夫们有用竹竿撑的；有用长竿钩住桥梁的；有用麻绳挽住船的；还有几人忙着放下桅杆，以便船只通过。邻船的人也在指指点点地象在大声吆喝着什么。船里船外都在为此船过桥而忙碌着。桥上的人，也伸头探脑地在为过船的紧张情景捏了一把汗。这里是名闻遐迩的虹桥码头区，车水马龙，熙熙攘攘，名副其实地是一个水陆交通的会合点。
-  </textformat>
- 
-  </p> 
-
-  <br /> 
-          <p align="left">
-
-
-<textformat indent="32" style="text-indent:32px;">
-  <br /> 
-以高大的城楼为中心，两边的屋宇鳞次栉比，有茶坊、酒肆、脚店、肉铺、庙宇、公廨等等。商店中有绫罗绸缎、珠宝香料、香火纸马等的专门经营，此外尚有医药门诊，大车修理、看相算命、修面整容，各行各业，应有尽有，大的商店门首还扎“彩楼欢门”，悬挂市招旗帜，招揽生意，街市行人，摩肩接踵，川流不息，有做生意的商贾，有看街景的士绅，有骑马的官吏，有叫卖的小贩，有乘座轿子的大家眷属，有身负背篓的行脚僧人，有问路的外乡游客，有听说书的街巷小儿，有酒楼中狂饮的豪门子弟，有城边行乞的残疾老人，男女老幼，士农工商，三教九流，无所不备。交通运载工具：有轿子、骆驼、牛马车、人力车，有太平车、平头车，形形色色，样样俱全。绘色绘形地展现在人们的眼前。
-  </textformat>
- 
-  </p> 
-
+	<data name="TUMS钙片750毫克100粒">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： TUMS
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 100粒
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
 	
+<intropic name="scene_walmart_3" id="" count="1">
+	 <box name="box_0" title="Gerber婴儿星星泡芙磨牙饼干" 
+	 	  imgurl="popupImages/Gerber婴儿星星泡芙磨牙饼干.jpg" 
+	 	  simgurl="popupImages/Gerber婴儿星星泡芙磨牙饼干.jpg" 
+	 	  text="Gerber婴儿星星泡芙磨牙饼干" link="https://wap.koudaitong.com/v2/goods/3nu78hz3s7mz5"/>
+</intropic>
+	<data name="Gerber婴儿星星泡芙磨牙饼干">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Gerber
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 42g
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
 	</data>
 
-	<data name="test_2"><![CDATA[
-   总有那么一些歌，让我们感伤、落泪。但其实让我们伤感的并不是歌曲本身，而是藏在回忆里的那些人。]]>
-  </data>
+
+<intropic name="scene_walmart_4" id="" count="5">
+	 <box name="box_0" title="嘉宝谷物米粉婴儿米糊 （多种口味）" 
+	 	  imgurl="popupImages/嘉宝谷物米粉婴儿米糊多种口味.jpg" 
+	 	  simgurl="popupImages/嘉宝谷物米粉婴儿米糊多种口味.jpg" 
+	 	  text="嘉宝谷物米粉婴儿米糊多种口味" link="https://wap.koudaitong.com/v2/goods/2xcrqvykzr2hd"/>
+	<box name="box_1" title="雀巢嘉宝有机婴儿杂粮糙米" 
+	 	  imgurl="popupImages/雀巢嘉宝有机婴儿杂粮糙米.jpg" 
+	 	  simgurl="popupImages/雀巢嘉宝有机婴儿杂粮糙米.jpg" 
+	 	  text="雀巢嘉宝有机婴儿杂粮糙米" link="https://wap.koudaitong.com/v2/goods/3nqgzn8wmig9t"/>
+	<box name="box_2" title="婴儿美食果泥128ml（多种口味）" 
+	 	  imgurl="popupImages/婴儿美食果泥全系列.jpg" 
+	 	  simgurl="popupImages/婴儿美食果泥全系列.jpg" 
+	 	  text="婴儿美食果泥全系列" link="https://wap.koudaitong.com/v2/goods/3eo2a87z08ra9"/>
+	<box name="box_3" title="双亲之选有机果泥128ml （多种口味）" 
+	 	  imgurl="popupImages/双亲之选有机果泥.jpg" 
+	 	  simgurl="popupImages/双亲之选有机果泥.jpg" 
+	 	  text="双亲之选有机果泥" link="https://wap.koudaitong.com/v2/goods/3nsxi0usmo5nl"/>
+	<box name="box_4" title="亨氏多种口味果泥128ml （多种口味）" 
+	 	  imgurl="popupImages/亨氏多种口味果泥.jpg" 
+	 	  simgurl="popupImages/亨氏多种口味果泥.jpg" 
+	 	  text="亨氏多种口味果泥" link="https://wap.koudaitong.com/v2/goods/36aagsfvw2m75"/> 	  
+</intropic>
+	<data name="嘉宝谷物米粉婴儿米糊多种口味">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Gerber
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 227g
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
 	
+	<data name="雀巢嘉宝有机婴儿杂粮糙米">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Gerber
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 208g
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	
+	<data name="婴儿美食果泥全系列">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Baby Gourmet
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 128ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	
+	<data name="双亲之选有机果泥">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Parent's Choice
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 128ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	
+	<data name="亨氏多种口味果泥">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： HEINZ
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 128ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
 
-	<data name="test_3">
-              <p align="left">
-
-
-<textformat indent="32">
-  <br /> 
-以高大的城楼为中心，两边的屋宇鳞次栉比，有茶坊、酒肆、脚店、肉铺、庙宇、公廨等等。商店中有绫罗绸缎、珠宝香料、香火纸马等的专门经营，此外尚有医药门诊，大车修理、看相算命、修面整容，各行各业，应有尽有，大的商店门首还扎“彩楼欢门”，悬挂市招旗帜，招揽生意，街市行人，摩肩接踵，川流不息，有做生意的商贾，有看街景的士绅，有骑马的官吏，有叫卖的小贩，有乘座轿子的大家眷属，有身负背篓的行脚僧人，有问路的外乡游客，有听说书的街巷小儿，有酒楼中狂饮的豪门子弟，有城边行乞的残疾老人，男女老幼，士农工商，三教九流，无所不备。交通运载工具：有轿子、骆驼、牛马车、人力车，有太平车、平头车，形形色色，样样俱全。绘色绘形地展现在人们的眼前。
-  </textformat>
+<intropic name="scene_walmart_5" id="" count="10">
+	 <box name="box_0" title="艾维诺Aveeno婴儿舒缓保湿乳" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿舒缓保湿乳.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿舒缓保湿乳.jpg" 
+	 	  text="艾维诺Aveeno婴儿舒缓保湿乳" link="https://wap.koudaitong.com/v2/goods/2xf7e7jljuws1"/>
+	 <box name="box_1" title="艾维诺Aveeno婴儿日常润肤露" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿日常润肤露.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿日常润肤露.jpg" 
+	 	  text="艾维诺Aveeno婴儿日常润肤露" link="https://wap.koudaitong.com/v2/goods/2xcrr2y5cgmxt"/>
+  	 <box name="box_2" title="艾维诺Aveeno婴儿保湿护臀膏" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿保湿护臀膏.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿保湿护臀膏.jpg" 
+	 	  text="艾维诺Aveeno婴儿保湿护臀膏" link="https://wap.koudaitong.com/v2/goods/2xaaw1bzlk8gh"/>
+	 <box name="box_3" title="艾维诺Aveeno婴儿保湿沐浴露" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿保湿沐浴露.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿保湿沐浴露.jpg" 
+	 	  text="艾维诺Aveeno婴儿保湿沐浴露" link="https://wap.koudaitong.com/v2/goods/2fsua1gyrzeu9"/>
+	 <box name="box_4" title="艾维诺Aveeno婴儿镇静婴儿润肤露" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿镇静婴儿润肤露.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿镇静婴儿润肤露.jpg" 
+	 	  text="艾维诺Aveeno婴儿镇静婴儿润肤露" link="https://wap.koudaitong.com/v2/goods/35vioa3ol4eoh"/>
+	 <box name="box_5" title="艾维诺AVEENO婴儿柔润洗发水 " 
+	 	  imgurl="popupImages/艾维诺AVEENO婴儿柔润洗发水.jpg" 
+	 	  simgurl="popupImages/艾维诺AVEENO婴儿柔润洗发水.jpg" 
+	 	  text="艾维诺AVEENO婴儿柔润洗发水" link="https://wap.koudaitong.com/v2/goods/3esyg4hrpaq81"/>
+	 <box name="box_6" title="艾维诺Aveeno婴儿湿疹护理沐浴露" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿湿疹护理沐浴露.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿湿疹护理沐浴露.jpg" 
+	 	  text="艾维诺Aveeno婴儿湿疹护理沐浴露" link="https://wap.koudaitong.com/v2/goods/270c8j6h37k01"/>
+	 <box name="box_7" title="艾维诺Aveeno婴儿洗护二合一" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿洗护二合一.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿洗护二合一.jpg" 
+	 	  text="艾维诺Aveeno婴儿洗护二合一" link="https://wap.koudaitong.com/v2/goods/3f59plim25p5d"/>
+	 <box name="box_8" title="艾维诺Aveeno婴儿镇静舒适沐浴露" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿镇静舒适沐浴露.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿镇静舒适沐浴露.jpg" 
+	 	  text="艾维诺Aveeno婴儿镇静舒适沐浴露" link="https://wap.koudaitong.com/v2/goods/3nsypngmoihap"/>
+	 <box name="box_9" title="艾维诺Aveeno婴儿湿疹护理保湿乳" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿湿疹护理保湿乳.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿湿疹护理保湿乳.jpg" 
+	 	  text="艾维诺Aveeno婴儿湿疹护理保湿乳" link="https://wap.koudaitong.com/v2/goods/2fmp9c55plu4x"/>
+	 <box name="box_10" title="艾维诺Aveeno婴儿舒缓婴儿沐浴治疗 含5个独立包装" 
+	 	  imgurl="popupImages/艾维诺Aveeno婴儿舒缓婴儿沐浴治疗含5个独立包装.jpg" 
+	 	  simgurl="popupImages/艾维诺Aveeno婴儿舒缓婴儿沐浴治疗含5个独立包装.jpg" 
+	 	  text="艾维诺Aveeno婴儿舒缓婴儿沐浴治疗含5个独立包装" link="https://wap.koudaitong.com/v2/goods/3nlktj2zj4j41"/>
+ </intropic>
  
-  </p> 
+	<data name="艾维诺Aveeno婴儿舒缓保湿乳">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 223ml, 139ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
 	</data>
-
-	<data name="test_4">
-        打开IIS微软管理控制台，右键单击本地计算机名字，然后点击属性。[br/]
+	<data name="艾维诺Aveeno婴儿日常润肤露">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 227ml，354ml，532ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
 	</data>
+	<data name="艾维诺Aveeno婴儿保湿护臀膏">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 105g
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺Aveeno婴儿保湿沐浴露">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 236ml, 354ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺Aveeno婴儿镇静婴儿润肤露">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 227ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺AVEENO婴儿柔润洗发水">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 354ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺Aveeno婴儿湿疹护理沐浴露">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 236ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺Aveeno婴儿洗护二合一">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 236ml，354ml，532ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺Aveeno婴儿镇静舒适沐浴露">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 236ml，532ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺Aveeno婴儿湿疹护理保湿乳">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 166ml，330ml
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="艾维诺Aveeno婴儿舒缓婴儿沐浴治疗含5个独立包装">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Aveeno
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 21g * 5
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+		
 
-	
-
-
-
-
-	
+<intropic name="scene_walmart_6" id="" count="12">
+	 <box name="box_0" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_1" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+  	 <box name="box_2" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_3" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_4" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_5" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_6" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_7" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_8" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_9" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_10" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_11" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+	 <box name="box_12" title="" 
+	 	  imgurl="popupImages/.jpg" 
+	 	  simgurl="popupImages/.jpg" 
+	 	  text="TUMS" link=""/>
+ </intropic>
+ 
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Enfamil 美赞臣
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
 </krpano>
