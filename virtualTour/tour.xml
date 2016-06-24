@@ -141,7 +141,7 @@
 			set(layer[activespot].parent, spot1);
 			set(layer[radar].parent, spot1);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, -120);
 		</action>
 
 		<!-- <view hlookat="-146.245" vlookat="3.386" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
@@ -205,7 +205,7 @@
 			set(layer[activespot].parent, spot2);
 			set(layer[radar].parent, spot2);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, 55);
 		</action>
 
 		<!-- <view hlookat="30.961" vlookat="6.900" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
@@ -253,7 +253,7 @@
 			set(layer[activespot].parent, spot3);
 			set(layer[radar].parent, spot3);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, -90);
 		</action>
 
 		<!-- <view hlookat="-182.899" vlookat="-1.786" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
@@ -300,7 +300,7 @@
 			set(layer[activespot].parent, spot4);
 			set(layer[radar].parent, spot4);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, 45);
 		</action>
 
 		<!-- <view hlookat="46.321" vlookat="2.637" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
@@ -407,7 +407,7 @@
 			set(layer[activespot].parent, spot5);
 			set(layer[radar].parent, spot5);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, 100);
 		</action>
 
 		<!-- <view hlookat="-16.560" vlookat="0.188" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
@@ -454,7 +454,7 @@
 			set(layer[activespot].parent, spot6);
 			set(layer[radar].parent, spot6);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, 135);
 		</action>
 
 		<!-- <view hlookat="132.527" vlookat="3.124" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" /> -->
@@ -480,6 +480,146 @@
 		<!-- place your scene hotspots here -->
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="133.656" atv="-5.594" linkedscene="scene_walmart_5" />
 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(0, scene_walmart_6);"
+			         >
+				<point ath="-26" atv="-15" />
+				<point ath="-26" atv="15" />
+				<point ath="-29" atv="13" />
+				<point ath="-29" atv="-13" />
+		</hotspot>
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(1, scene_walmart_6);"
+			         >
+				<point ath="-10" atv="-15" />
+				<point ath="-10" atv="-5" />
+				<point ath="-25" atv="-3" />
+				<point ath="-25" atv="-10" />
+		</hotspot>
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(2, scene_walmart_6);"
+			         >
+				<point ath="-5.5" atv="-15" />
+				<point ath="-5.5" atv="-5" />
+				<point ath="-10" atv="-5" />
+				<point ath="-10" atv="-15" />
+		</hotspot>
+		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(3, scene_walmart_6);"
+			         >
+				<point ath="39" atv="-29" />
+				<point ath="39" atv="-9" />
+				<point ath="-5.5" atv="-5" />
+				<point ath="-5.5" atv="-20" />
+		</hotspot>
+		<hotspot name="hs5" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(4, scene_walmart_6);"
+			         >
+				<point ath="85" atv="-25" />
+				<point ath="85" atv="-8" />
+				<point ath="39" atv="-9" />
+				<point ath="39" atv="-29" />
+		</hotspot>
+		<hotspot name="hs6" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(5, scene_walmart_6);"
+			         >
+				<point ath="94" atv="-31" />
+				<point ath="94" atv="-23" />
+				<point ath="70" atv="-30" />
+				<point ath="70" atv="-39" />
+		</hotspot>
+		<hotspot name="hs7" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(7, scene_walmart_6);"
+			         >
+				<point ath="16.5" atv="-38" />
+				<point ath="16.5" atv="-29" />
+				<point ath="6.5" atv="-26" />
+				<point ath="6.5" atv="-35" />
+		</hotspot>
+		<hotspot name="hs8" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(8, scene_walmart_6);"
+			         >
+				<point ath="27" atv="-41" />
+				<point ath="27" atv="-31" />
+				<point ath="16.5" atv="-29" />
+				<point ath="16.5" atv="-38" />
+		</hotspot>
+		<hotspot name="hs9" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(9, scene_walmart_6);"
+			         >
+				<point ath="70" atv="-39" />
+				<point ath="70" atv="-30" />
+				<point ath="27" atv="-31" />
+				<point ath="27" atv="-41" />
+		</hotspot>
+		<hotspot name="hs10" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+			         depth="1000"
+			         polyline="false"
+			         scaleflying="true"
+			         tx="0"
+			         ty="0"
+			         tz="0"
+			         onclick="open_textbox(10, scene_walmart_6);"
+			         >
+				<point ath="114" atv="-12" />
+				<point ath="114" atv="-4" />
+				<point ath="108.5" atv="-4" />
+				<point ath="108.5" atv="-15" />
+		</hotspot>
 	</scene>
 
 

@@ -140,10 +140,10 @@
 			set(layer[activespot].parent, spot1);
 			set(layer[radar].parent, spot1);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, -70);
 		</action>
 
-		<view hlookat="65.895" vlookat="-1.581" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="65.895" vlookat="-1.581" vlookatmax="50" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" />
 
 		<preview url="panos/costco1.tiles/preview.jpg" />
 
@@ -165,6 +165,63 @@
 		<!-- place your scene hotspots here -->
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="63.917" atv="-2.765" linkedscene="scene_costco2" />
 
+		<!-- this hotspot is used to show the popup window which contains pictures and descriptions -->
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_costco1);"
+	         >
+			<point ath="-88" atv="-6" />
+			<point ath="-87" atv="22" />
+			<point ath="-95" atv="17" />
+			<point ath="-95" atv="-6" />
+		</hotspot>
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_costco1);"
+	         >
+			<point ath="-88" atv="-6" />
+			<point ath="-87" atv="22" />
+			<point ath="-95" atv="17" />
+			<point ath="-95" atv="-6" />
+		</hotspot>
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1, scene_costco1);"
+	         >
+			<point ath="90" atv="5" />
+			<point ath="90" atv="11" />
+			<point ath="96" atv="13" />
+			<point ath="97" atv="6" />
+		</hotspot>
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(2, scene_costco1);"
+	         >
+			<point ath="-48" atv="-12" />
+			<point ath="-48" atv="39" />
+			<point ath="-78" atv="30" />
+			<point ath="-77" atv="-10" />
+		</hotspot>
 	</scene>
 
 	<scene name="scene_costco2" title="costco2" onstart="updateradar();" thumburl="panos/costco2.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -172,10 +229,10 @@
 			set(layer[activespot].parent, spot2);
 			set(layer[radar].parent, spot2);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, -70);
 		</action>
 
-		<view hlookat="61.466" vlookat="-4.794" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="61.466" vlookat="-4.794" vlookatmax="50" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" />
 
 		<preview url="panos/costco2.tiles/preview.jpg" />
 
@@ -198,6 +255,49 @@
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="60.284" atv="-0.257" linkedscene="scene_costco3" />
 		<hotspot name="spot2" style="skin_hotspotstyle_front" ath="-118.423" atv="-1.028" linkedscene="scene_costco1" />
 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_costco2);"
+	         >
+			<point ath="-164" atv="7" />
+			<point ath="-164" atv="16" />
+			<point ath="-178" atv="20" />
+			<point ath="-178" atv="8" />
+		</hotspot>
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1, scene_costco2);"
+	         >
+			<point ath="130" atv="12" />
+			<point ath="130" atv="22" />
+			<point ath="117" atv="20" />
+			<point ath="117" atv="12" />
+		</hotspot>
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(2, scene_costco2);"
+	         >
+			<point ath="96" atv="-8" />
+			<point ath="96" atv="3" />
+			<point ath="88" atv="2" />
+			<point ath="88" atv="-7" />
+		</hotspot>
+
 	</scene>
 
 	<scene name="scene_costco3" title="costco3" onstart="updateradar();" thumburl="panos/costco3.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -205,10 +305,10 @@
 			set(layer[activespot].parent, spot3);
 			set(layer[radar].parent, spot3);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 160);
+			set(layer[radar].heading, -110);
 		</action>
 
-		<view hlookat="-244.736" vlookat="-3.236" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-244.736" vlookat="-3.236" vlookatmax="50" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" />
 
 		<preview url="panos/costco3.tiles/preview.jpg" />
 
@@ -231,6 +331,62 @@
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="113.881" atv="-1.062" linkedscene="scene_costco4" />
 		<hotspot name="spot2" style="skin_hotspotstyle_front" ath="-65.045" atv="-1.343" linkedscene="scene_costco2" />
 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_costco3);"
+	         >
+			<point ath="-113" atv="7" />
+			<point ath="-113" atv="16" />
+			<point ath="-122" atv="18" />
+			<point ath="-122" atv="8" />
+		</hotspot>
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1, scene_costco3);"
+	         >
+			<point ath="202" atv="-15" />
+			<point ath="202" atv="4" />
+			<point ath="177" atv="4" />
+			<point ath="177" atv="-15" />
+		</hotspot>
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(2, scene_costco3);"
+	         >
+			<point ath="84" atv="8" />
+			<point ath="84" atv="30" />
+			<point ath="64" atv="36" />
+			<point ath="64" atv="8" />
+		</hotspot>
+		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(3, scene_costco3);"
+	         >
+			<point ath="151" atv="-10" />
+			<point ath="151" atv="4" />
+			<point ath="145" atv="4" />
+			<point ath="145" atv="-10" />
+		</hotspot>
 	</scene>
 
 	<scene name="scene_costco4" title="costco4" onstart="updateradar();" thumburl="panos/costco4.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -241,7 +397,7 @@
 			set(layer[radar].heading, 160);
 		</action>
 
-		<view hlookat="196.638" vlookat="-5.037" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="196.638" vlookat="-5.037" vlookatmax="50" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" />
 
 		<preview url="panos/costco4.tiles/preview.jpg" />
 
@@ -263,6 +419,62 @@
 		<!-- place your scene hotspots here -->
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="8.649" atv="4.098" linkedscene="scene_costco3" />
 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_costco4);"
+	         >
+			<point ath="-116" atv="19" />
+			<point ath="-116" atv="35" />
+			<point ath="-81" atv="40" />
+			<point ath="-81" atv="21" />
+		</hotspot>
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1, scene_costco4);"
+	         >
+			<point ath="-155" atv="-6" />
+			<point ath="-155" atv="16" />
+			<point ath="-149" atv="19" />
+			<point ath="-149" atv="-7" />
+		</hotspot>
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(2, scene_costco4);"
+	         >
+			<point ath="-79" atv="-12" />
+			<point ath="-79" atv="5" />
+			<point ath="-59" atv="5" />
+			<point ath="-59" atv="-12" />
+		</hotspot>
+		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(3, scene_costco4);"
+	         >
+			<point ath="-93" atv="6" />
+			<point ath="-93" atv="20.5" />
+			<point ath="-76" atv="20.5" />
+			<point ath="-76" atv="6" />
+		</hotspot>
 	</scene>
 
 

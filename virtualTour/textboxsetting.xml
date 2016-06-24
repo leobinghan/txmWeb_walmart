@@ -787,62 +787,54 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	</data>
 		
 
-<intropic name="scene_walmart_6" id="" count="12">
-	 <box name="box_0" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_1" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-  	 <box name="box_2" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_3" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_4" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_5" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_6" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_7" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_8" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_9" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_10" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_11" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
-	 <box name="box_12" title="" 
-	 	  imgurl="popupImages/.jpg" 
-	 	  simgurl="popupImages/.jpg" 
-	 	  text="TUMS" link=""/>
+<intropic name="scene_walmart_6" id="" count="11">
+	 <box name="box_0" title="美赞臣三段680g原味-香草味" 
+	 	  imgurl="popupImages/美赞臣三段680g原味-香草味.jpg" 
+	 	  simgurl="popupImages/美赞臣三段680g原味-香草味.jpg" 
+	 	  text="美赞臣三段680g原味-香草味" link="https://wap.koudaitong.com/v2/goods/26vdtpsls0ntd"/>
+	 <box name="box_1" title="雅培富含Omega 3和 Omega 6 一段/二段" 
+	 	  imgurl="popupImages/雅培富含Omega3_6.jpg" 
+	 	  simgurl="popupImages/雅培富含Omega3_6.jpg" 
+	 	  text="雅培富含Omega3_6" link="https://wap.koudaitong.com/v2/goods/2fnxrp3i9ovy9"/>
+  	 <box name="box_2" title="雅培一段部分水解蛋白质奶粉" 
+	 	  imgurl="popupImages/雅培一段部分水解蛋白质奶粉.jpg" 
+	 	  simgurl="popupImages/雅培一段部分水解蛋白质奶粉.jpg" 
+	 	  text="雅培一段部分水解蛋白质奶粉" link="https://wap.koudaitong.com/v2/goods/272sesznuw1ap"/>
+	 <box name="box_3" title="美赞臣一段原装-填充装" 
+	 	  imgurl="popupImages/美赞臣一段原装-填充装.jpg" 
+	 	  simgurl="popupImages/美赞臣一段原装-填充装.jpg" 
+	 	  text="美赞臣一段原装-填充装" link="https://wap.koudaitong.com/v2/goods/35worum04n435"/>
+	 <box name="box_4" title="美赞臣二段原装-填充装" 
+	 	  imgurl="popupImages/美赞臣二段原装-填充装.jpg" 
+	 	  simgurl="popupImages/美赞臣二段原装-填充装.jpg" 
+	 	  text="美赞臣二段原装-填充装" link="https://wap.koudaitong.com/v2/goods/2g08ow5slzhlt"/>
+	 <box name="box_5" title="美赞臣补铁婴儿奶粉900克" 
+	 	  imgurl="popupImages/美赞臣补铁婴儿奶粉900克.jpg" 
+	 	  simgurl="popupImages/美赞臣补铁婴儿奶粉900克.jpg" 
+	 	  text="美赞臣补铁婴儿奶粉900克" link="https://wap.koudaitong.com/v2/goods/3eo18u63hq1up"/>
+	 <box name="box_6" title="美赞臣一段低铁婴儿奶粉900克" 
+	 	  imgurl="popupImages/美赞臣一段低铁婴儿奶粉900克.jpg" 
+	 	  simgurl="popupImages/美赞臣一段低铁婴儿奶粉900克.jpg" 
+	 	  text="美赞臣一段低铁婴儿奶粉900克" link="https://wap.koudaitong.com/v2/goods/2ou0ztt07m1kx"/>
+	 <box name="box_7" title="雅培一段低铁易消化奶粉" 
+	 	  imgurl="popupImages/雅培一段低铁易消化奶粉.jpg" 
+	 	  simgurl="popupImages/雅培一段低铁易消化奶粉.jpg" 
+	 	  text="雅培一段低铁易消化奶粉" link="https://wap.koudaitong.com/v2/goods/1ybga8o9xtyfl"/>
+	 <box name="box_8" title="雅培一段含铁奶粉850g" 
+	 	  imgurl="popupImages/雅培一段含铁奶粉850g.jpg" 
+	 	  simgurl="popupImages/雅培一段含铁奶粉850g.jpg" 
+	 	  text="雅培一段含铁奶粉850g" link="https://wap.koudaitong.com/v2/goods/360f0mqlskbtd"/>
+	 <box name="box_9" title="雅培二段补钙奶粉" 
+	 	  imgurl="popupImages/雅培二段补钙奶粉.jpg" 
+	 	  simgurl="popupImages/雅培二段补钙奶粉.jpg" 
+	 	  text="雅培二段补钙奶粉" link="https://wap.koudaitong.com/v2/goods/36a9rocoxoz35"/>
+	 <box name="box_10" title="雀巢美好启程系列奶粉" 
+	 	  imgurl="popupImages/雀巢美好启程系列奶粉.jpg" 
+	 	  simgurl="popupImages/雀巢美好启程系列奶粉.jpg" 
+	 	  text="雀巢美好启程系列奶粉" link="https://wap.koudaitong.com/v2/goods/3ez466ptspi7l"/>
  </intropic>
  
-	<data name="">
+	<data name="美赞臣三段680g原味-香草味">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
@@ -856,7 +848,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
+		        产品规格： 680g
 		  </textformat>
 		</font>
 	  </p>
@@ -871,12 +863,12 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="雅培富含Omega3_6">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		         产品品牌： Enfamil 美赞臣
+		         产品品牌： Similac 雅培
 		  </textformat>
 		</font>
 	  </p>
@@ -885,36 +877,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         采购地： 加拿大
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	</data>
-	<data name="">
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         产品品牌： Enfamil 美赞臣
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		        产品规格： 
+		        产品规格： 658g
 		  </textformat>
 		</font>
 	  </p>
@@ -929,12 +892,12 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="雅培一段部分水解蛋白质奶粉">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		         产品品牌： Enfamil 美赞臣
+		         产品品牌： Similac 雅培
 		  </textformat>
 		</font>
 	  </p>
@@ -943,36 +906,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         采购地： 加拿大
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	</data>
-	<data name="">
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         产品品牌： Enfamil 美赞臣
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		        产品规格： 
+		        产品规格： 658g
 		  </textformat>
 		</font>
 	  </p>
@@ -987,7 +921,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="美赞臣一段原装-填充装">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
@@ -1001,7 +935,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
+		        产品规格： 663g，992g
 		  </textformat>
 		</font>
 	  </p>
@@ -1016,7 +950,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="美赞臣二段原装-填充装">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
@@ -1030,7 +964,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
+		        产品规格： 550g，992g
 		  </textformat>
 		</font>
 	  </p>
@@ -1045,7 +979,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="美赞臣补铁婴儿奶粉900克">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
@@ -1059,7 +993,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
+		        产品规格： 900g
 		  </textformat>
 		</font>
 	  </p>
@@ -1074,7 +1008,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="美赞臣一段低铁婴儿奶粉900克">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
@@ -1088,7 +1022,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
+		        产品规格： 900g
 		  </textformat>
 		</font>
 	  </p>
@@ -1103,12 +1037,12 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="雅培一段低铁易消化奶粉">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		         产品品牌： Enfamil 美赞臣
+		         产品品牌： Similac 雅培
 		  </textformat>
 		</font>
 	  </p>
@@ -1117,36 +1051,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         采购地： 加拿大
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	</data>
-	<data name="">
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         产品品牌： Enfamil 美赞臣
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		        产品规格： 
+		        产品规格： 850g
 		  </textformat>
 		</font>
 	  </p>
@@ -1161,12 +1066,12 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
-	<data name="">
+	<data name="雅培一段含铁奶粉850g">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		         产品品牌： Enfamil 美赞臣
+		         产品品牌： Similac 雅培
 		  </textformat>
 		</font>
 	  </p>
@@ -1175,7 +1080,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 
+		        产品规格： 850g
 		  </textformat>
 		</font>
 	  </p>
@@ -1190,4 +1095,63 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
+	<data name="雅培二段补钙奶粉">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Similac 雅培
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 850g
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="雀巢美好启程系列奶粉">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Nestle Good Start
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 600g，680g
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+
 </krpano>

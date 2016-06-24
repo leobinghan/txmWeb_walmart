@@ -102,105 +102,486 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 
    -->
 
- <intropic name="scene_Dinning_Room" id="" count="4">
- <box name="box_0" title="蒙娜丽莎" imgurl="image_b/DSC00091.jpg" simgurl="popupImage/DSC09439.jpg" text="test_1" link="http://www.google.ca/"/>
- <box name="box_1" title="标题2" imgurl="image_b/DSC09429.jpg" simgurl="popupImage/DSC09429.jpg" text="test_2"/>
- <box name="box_2" title="标题3" imgurl="image_b/DSC09457.jpg" simgurl="popupImage/DSC09457.jpg" text="test_3" />
- <box name="box_3" title="标题4" imgurl="image_b/DSC09460.jpg" simgurl="popupImage/DSC09460.jpg" text="test_4" /> 
+ <intropic name="scene_costco1" id="" count="3">
+	 <box name="box_0" title="GLYSOMED 洋甘菊护手霜" 
+	 	  imgurl="popupImages/GLYSOMED护手霜.jpg" 
+	 	  simgurl="popupImages/GLYSOMED护手霜.jpg" 
+	 	  text="GLYSOMED护手霜" link="https://wap.koudaitong.com/v2/goods/26xubzwpc4ci9"/>
+	 <box name="box_1" title="韦伯自然PGX减肥胶囊200粒" 
+	      imgurl="popupImages/韦伯自然PGX减肥胶囊200粒.jpg" 
+	      simgurl="popupImages/韦伯自然PGX减肥胶囊200粒.jpg" 
+	      text="韦伯自然PGX减肥胶囊200粒" link="https://wap.koudaitong.com/v2/goods/3nhuelzaki5k1"/>
+	 <box name="box_2" title="伊丽萨白雅顿时空胶囊精华素2件套装" 
+	      imgurl="popupImages/伊丽萨白雅顿时空胶囊精华素2件套装.jpg" 
+	      simgurl="popupImages/伊丽萨白雅顿时空胶囊精华素2件套装.jpg" 
+	      text="伊丽萨白雅顿时空胶囊精华素2件套装" link="https://wap.koudaitong.com/v2/goods/367sdvgfumq8x"/>
  </intropic>
-
-
- <intropic name="scene_Main_Lobby" id="" count="2">
- <box name="box_0" title="标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
- <box name="box_1" title="标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
- <box name="box_2" title="标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>
- <box name="box_3" title="标题4" imgurl="image_b/DSC09453.jpg" simgurl="image_s/DSC09453.jpg" text="test_2"/>
- </intropic>
-
  
- <intropic name="scene_1Outside_Door" id="" count="4">
- <box name="box_0" title="常驻图文标题1" imgurl="image_b/DSC09428_1.jpg" simgurl="image_s/DSC09428_1.jpg" text="test_2"/>
- <box name="box_1" title="常驻图文标题2" imgurl="image_b/DSC09443.jpg" simgurl="image_s/DSC09443.jpg" text="test_2"/>
- <box name="box_2" title="常驻图文标题3" imgurl="image_b/DSC09449.jpg" simgurl="image_s/DSC09449.jpg" text="test_2"/>
- <box name="box_3" title="常驻图文标题4" imgurl="image_b/DSC09453.jpg" simgurl="image_s/DSC09453.jpg" text="test_2"/> 
- </intropic>
-
-  
-
-
-    <data name="test_1"> 
-
-          <p align="left"  style="text-indent:15mm;">
-
-<font face="Arial" size="14" style="text-indent:15mm;font-size:15px;">
-<textformat indent="32"  style="text-indent:15mm;">
-
-这在中国乃至世界绘画史上都是独一无二的。在五米多长的画卷里，共绘了814个各色人物，牛、骡、驴等牲畜73匹，车、轿二十多辆，大小船只二十九艘。房屋、桥梁、城楼等各有特色，体现了宋代建筑的特征。具有很高的历史价值和艺术价值。 
-  </textformat>
-  
-  </font>
- 
-  </p>
-<br /> 
-           <p align="left" style="text-indent:32px;">
-
-
-<textformat indent="32" style="text-indent:32px;">
-  <br /> 
-作为文艺复兴时期作卓越的代表人物，他的成就和贡献是多方面的。《蒙娜丽莎》描绘了一位端庄秀美的西方妇女肖像，她面庞秀丽，形象逼真，似乎是真人的存在。坦然自信的神态流露出不可捉摸的带有神秘的微笑，呈现出一种高贵而不可侵犯的尊严。 
-  </textformat>
- 
-  </p> 
-  <br /> 
-          <p align="left">
-
-
-<textformat indent="32" style="text-indent:32px;">
-  <br /> 
-汴河是北宋国家漕运枢纽，商业交通要道，从画面上可以看到人烟稠密，粮船云集，人们有在茶馆休息的，有在看相算命的，有在饭铺进餐的。还有"王家纸马店"，是扫墓卖祭品的，河里船只往来，首尾相接，或纤夫牵拉，或船夫摇橹，有的满载货物，逆流而上，有的靠岸停泊，正紧张地卸货。横跨汴河上的是一座规模宏大的木质拱桥，它结构精巧，形式优美。宛如飞虹，故名虹桥。有一只大船正待过桥。船夫们有用竹竿撑的；有用长竿钩住桥梁的；有用麻绳挽住船的；还有几人忙着放下桅杆，以便船只通过。邻船的人也在指指点点地象在大声吆喝着什么。船里船外都在为此船过桥而忙碌着。桥上的人，也伸头探脑地在为过船的紧张情景捏了一把汗。这里是名闻遐迩的虹桥码头区，车水马龙，熙熙攘攘，名副其实地是一个水陆交通的会合点。
-  </textformat>
- 
-  </p> 
-
-  <br /> 
-          <p align="left">
-
-
-<textformat indent="32" style="text-indent:32px;">
-  <br /> 
-以高大的城楼为中心，两边的屋宇鳞次栉比，有茶坊、酒肆、脚店、肉铺、庙宇、公廨等等。商店中有绫罗绸缎、珠宝香料、香火纸马等的专门经营，此外尚有医药门诊，大车修理、看相算命、修面整容，各行各业，应有尽有，大的商店门首还扎“彩楼欢门”，悬挂市招旗帜，招揽生意，街市行人，摩肩接踵，川流不息，有做生意的商贾，有看街景的士绅，有骑马的官吏，有叫卖的小贩，有乘座轿子的大家眷属，有身负背篓的行脚僧人，有问路的外乡游客，有听说书的街巷小儿，有酒楼中狂饮的豪门子弟，有城边行乞的残疾老人，男女老幼，士农工商，三教九流，无所不备。交通运载工具：有轿子、骆驼、牛马车、人力车，有太平车、平头车，形形色色，样样俱全。绘色绘形地展现在人们的眼前。
-  </textformat>
- 
-  </p> 
-
-	
+	<data name="GLYSOMED护手霜">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Glysomed
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 250ml*2支 + 50ml*1支
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 美国
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+    <data name="韦伯自然PGX减肥胶囊200粒">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Webber Naturals
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 750mg 200粒
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="伊丽萨白雅顿时空胶囊精华素2件套装">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Elizabeth Arden
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 2罐套装 60粒/罐
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
 	</data>
 
-	<data name="test_2"><![CDATA[
-   总有那么一些歌，让我们感伤、落泪。但其实让我们伤感的并不是歌曲本身，而是藏在回忆里的那些人。]]>
-  </data>
+
+ <intropic name="scene_costco2" id="" count="3">
+	 <box name="box_0" title="韦伯自然PGX减肥胶囊200粒" 
+	 	  imgurl="popupImages/韦伯自然PGX减肥胶囊200粒.jpg" 
+	 	  simgurl="popupImages/韦伯自然PGX减肥胶囊200粒.jpg" 
+	 	  text="韦伯自然PGX减肥胶囊200粒" link="https://wap.koudaitong.com/v2/goods/3nhuelzaki5k1"/>
+	 <box name="box_1" title="Robax护腰贴6只耐热包装" 
+	      imgurl="popupImages/Robax护腰贴6只耐热包装.jpg" 
+	      simgurl="popupImages/Robax护腰贴6只耐热包装.jpg" 
+	      text="Robax护腰贴6只耐热包装" link="https://wap.koudaitong.com/v2/goods/27cmaga1i65s1"/>
+	 <box name="box_2" title="健康平衡大豆软灵芝胶囊1200毫克400粒" 
+	      imgurl="popupImages/健康平衡大豆软灵芝胶囊1200毫克400粒.jpg" 
+	      simgurl="popupImages/健康平衡大豆软灵芝胶囊1200毫克400粒.jpg" 
+	      text="健康平衡大豆软灵芝胶囊1200毫克400粒" link="https://wap.koudaitong.com/v2/goods/2olgnvux6f6i9"/>
+ </intropic>
 	
-
-	<data name="test_3">
-              <p align="left">
-
-
-<textformat indent="32">
-  <br /> 
-以高大的城楼为中心，两边的屋宇鳞次栉比，有茶坊、酒肆、脚店、肉铺、庙宇、公廨等等。商店中有绫罗绸缎、珠宝香料、香火纸马等的专门经营，此外尚有医药门诊，大车修理、看相算命、修面整容，各行各业，应有尽有，大的商店门首还扎“彩楼欢门”，悬挂市招旗帜，招揽生意，街市行人，摩肩接踵，川流不息，有做生意的商贾，有看街景的士绅，有骑马的官吏，有叫卖的小贩，有乘座轿子的大家眷属，有身负背篓的行脚僧人，有问路的外乡游客，有听说书的街巷小儿，有酒楼中狂饮的豪门子弟，有城边行乞的残疾老人，男女老幼，士农工商，三教九流，无所不备。交通运载工具：有轿子、骆驼、牛马车、人力车，有太平车、平头车，形形色色，样样俱全。绘色绘形地展现在人们的眼前。
-  </textformat>
- 
-  </p> 
+	<data name="韦伯自然PGX减肥胶囊200粒">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Webber Naturals
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 750mg 200粒
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="Robax护腰贴6只耐热包装">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Robax
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 6片装
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="健康平衡大豆软灵芝胶囊1200毫克400粒">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Health Balance
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 400粒
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
 	</data>
 
-	<data name="test_4">
-        打开IIS微软管理控制台，右键单击本地计算机名字，然后点击属性。[br/]
+
+ <intropic name="scene_costco3" id="" count="4">
+	 <box name="box_0" title="Robax护腰贴6只耐热包装" 
+	 	  imgurl="popupImages/Robax护腰贴6只耐热包装.jpg" 
+	 	  simgurl="popupImages/Robax护腰贴6只耐热包装.jpg" 
+	 	  text="Robax护腰贴6只耐热包装" link="https://wap.koudaitong.com/v2/goods/27cmaga1i65s1"/>
+	 <box name="box_1" title="健康平衡葡萄籽精华300粒" 
+	      imgurl="popupImages/健康平衡葡萄籽精华300粒.jpg" 
+	      simgurl="popupImages/健康平衡葡萄籽精华300粒.jpg" 
+	      text="健康平衡葡萄籽精华300粒" link="https://wap.koudaitong.com/v2/goods/1ya6dq44ucisx"/>
+	 <box name="box_2" title="凡士林三件套2个375g + 100g" 
+	      imgurl="popupImages/凡士林三件套2个375g100g.jpg" 
+	      simgurl="popupImages/凡士林三件套2个375g100g.jpg" 
+	      text="凡士林三件套2个375g100g" link="https://wap.koudaitong.com/v2/goods/27cl2yx03mi8h"/>
+	 <box name="box_3" title="博朗宝宝耳温枪IRT-6020" 
+	      imgurl="popupImages/博朗宝宝耳温枪IRT-6020.jpg" 
+	      simgurl="popupImages/博朗宝宝耳温枪IRT-6020.jpg" 
+	      text="博朗宝宝耳温枪IRT-6020" link="https://wap.koudaitong.com/v2/goods/2octqh5ps7bxd"/>
+ </intropic>
+
+	<data name="Robax护腰贴6只耐热包装">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Robax
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 6片装
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
 	</data>
-
+	<data name="健康平衡葡萄籽精华300粒">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Health Balance
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 240粒，300粒
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="凡士林三件套2个375g100g">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Vaseline
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 375g*2个 + 100g*1个
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="博朗宝宝耳温枪IRT-6020">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Braun
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： IRT-6020
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
 	
-
-
-
-
+	
+ <intropic name="scene_costco4" id="" count="4">
+ 	<box name="box_0" title="凡士林三件套2个375g + 100g" 
+	 	  imgurl="popupImages/凡士林三件套2个375g100g.jpg" 
+	 	  simgurl="popupImages/凡士林三件套2个375g100g.jpg" 
+	 	  text="凡士林三件套2个375g100g" link="https://wap.koudaitong.com/v2/goods/27cl2yx03mi8h"/>
+	<box name="box_1" title="bio-oil祛妊娠纹套装两件套260毫升" 
+	 	  imgurl="popupImages/bio-oil祛妊娠纹套装两件套260毫升.jpg" 
+	 	  simgurl="popupImages/bio-oil祛妊娠纹套装两件套260毫升.jpg" 
+	 	  text="bio-oil祛妊娠纹套装两件套260毫升" link="https://wap.koudaitong.com/v2/goods/3nmrye6ij2ctt"/>
+	<box name="box_2" title="博朗宝宝耳温枪IRT-6020" 
+	      imgurl="popupImages/博朗宝宝耳温枪IRT-6020.jpg" 
+	      simgurl="popupImages/博朗宝宝耳温枪IRT-6020.jpg" 
+	      text="博朗宝宝耳温枪IRT-6020" link="https://wap.koudaitong.com/v2/goods/2octqh5ps7bxd"/>
+	<box name="box_3" title="贝娜婷万用膏婴儿润肤护股膏套装" 
+	 	  imgurl="popupImages/贝娜婷万用膏婴儿润肤护股膏套装.jpg" 
+	 	  simgurl="popupImages/贝娜婷万用膏婴儿润肤护股膏套装.jpg" 
+	 	  text="贝娜婷万用膏婴儿润肤护股膏套装" link="https://wap.koudaitong.com/v2/goods/2ormqani65eup"/>
+ </intropic>
+	
+	<data name="凡士林三件套2个375g100g">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Vaseline
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 375g*2个 + 100g*1个
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="bio-oil祛妊娠纹套装两件套260毫升">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Bio-Oil
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 200ml*1瓶 + 60ml*1瓶
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="博朗宝宝耳温枪IRT-6020">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Braun
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： IRT-6020
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	<data name="贝娜婷万用膏婴儿润肤护股膏套装">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Penaten
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 166g*2罐，27g*1罐
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	
 	
 </krpano>
