@@ -166,7 +166,7 @@
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="63.917" atv="-2.765" linkedscene="scene_costco2" />
 
 		<!-- this hotspot is used to show the popup window which contains pictures and descriptions -->
-		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -180,7 +180,7 @@
 			<point ath="-95" atv="17" />
 			<point ath="-95" atv="-6" />
 		</hotspot>
-		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -194,7 +194,7 @@
 			<point ath="-95" atv="17" />
 			<point ath="-95" atv="-6" />
 		</hotspot>
-		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -208,7 +208,7 @@
 			<point ath="96" atv="13" />
 			<point ath="97" atv="6" />
 		</hotspot>
-		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -255,7 +255,7 @@
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="60.284" atv="-0.257" linkedscene="scene_costco3" />
 		<hotspot name="spot2" style="skin_hotspotstyle_front" ath="-118.423" atv="-1.028" linkedscene="scene_costco1" />
 
-		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -269,7 +269,7 @@
 			<point ath="-178" atv="20" />
 			<point ath="-178" atv="8" />
 		</hotspot>
-		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -283,7 +283,7 @@
 			<point ath="117" atv="20" />
 			<point ath="117" atv="12" />
 		</hotspot>
-		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -331,7 +331,7 @@
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="113.881" atv="-1.062" linkedscene="scene_costco4" />
 		<hotspot name="spot2" style="skin_hotspotstyle_front" ath="-65.045" atv="-1.343" linkedscene="scene_costco2" />
 
-		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -345,7 +345,7 @@
 			<point ath="-122" atv="18" />
 			<point ath="-122" atv="8" />
 		</hotspot>
-		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -359,7 +359,7 @@
 			<point ath="177" atv="4" />
 			<point ath="177" atv="-15" />
 		</hotspot>
-		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -373,7 +373,7 @@
 			<point ath="64" atv="36" />
 			<point ath="64" atv="8" />
 		</hotspot>
-		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -419,7 +419,7 @@
 		<!-- place your scene hotspots here -->
 		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="8.649" atv="4.098" linkedscene="scene_costco3" />
 
-		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -433,7 +433,7 @@
 			<point ath="-81" atv="40" />
 			<point ath="-81" atv="21" />
 		</hotspot>
-		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs2" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -447,7 +447,7 @@
 			<point ath="-149" atv="19" />
 			<point ath="-149" atv="-7" />
 		</hotspot>
-		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs3" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -461,7 +461,7 @@
 			<point ath="-59" atv="5" />
 			<point ath="-59" atv="-12" />
 		</hotspot>
-		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="2.0" bordercolor="543500" borderalpha="1.0" 
+		<hotspot name="hs4" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
