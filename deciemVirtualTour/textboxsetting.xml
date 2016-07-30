@@ -62,7 +62,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
                   autoplaysound="true"
                 
                   button="music|link"
-                  linkbutton="1"
+                  linkbutton="2"
 
                   change_pic_ratio=""
                   change_pic_ratio_portrait=""
@@ -91,18 +91,26 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
      link为对应的链接，只支持http链接
    -->
 
- <intropic name="scene_deciem2" id="" count="2">
-	 <box name="box_0" title="GLYSOMED 洋甘菊护手霜" 
-	 	  imgurl="popupImages/GLYSOMED护手霜.jpg" 
-	 	  simgurl="popupImages/GLYSOMED护手霜.jpg" 
-	 	  text="GLYSOMED护手霜" link="https://wap.koudaitong.com/v2/goods/26xubzwpc4ci9"/>
-	 <box name="box_1" title="伊丽萨白雅顿时空胶囊精华素2件套装" 
-	      imgurl="popupImages/伊丽萨白雅顿时空胶囊精华素2件套装.jpg" 
-	      simgurl="popupImages/伊丽萨白雅顿时空胶囊精华素2件套装.jpg" 
-	      text="伊丽萨白雅顿时空胶囊精华素2件套装" link="https://wap.koudaitong.com/v2/goods/367sdvgfumq8x"/>
- </intropic>
+<intropic name="scene_deciem1" id="" count="4">
+	 <box name="box_0" title="Hylamide SubQ 抗衰老保湿去纹精华" 
+	 	  imgurl="popupImages/HylamideSubQ抗衰老保湿去纹精华.jpg" 
+	 	  simgurl="popupImages/HylamideSubQ抗衰老保湿去纹精华.jpg" 
+	 	  text="HylamideSubQ抗衰老保湿去纹精华" link="https://wap.koudaitong.com/v2/goods/2x467cbu3ic1t"/>
+	 <box name="box_1" title="Hylamide Finisher 妆前透明质酸遮瑕乳 30毫升" 
+	      imgurl="popupImages/HylamideFinisher妆前透明质酸遮瑕乳30毫升.jpg" 
+	      simgurl="popupImages/HylamideFinisher妆前透明质酸遮瑕乳30毫升.jpg" 
+	      text="HylamideFinisher妆前透明质酸遮瑕乳30毫升" link="https://wap.koudaitong.com/v2/goods/1y5966zajbu75"/>
+	 <box name="box_2" title="Hylamide Finisher 哑光保湿控油润饰液 30毫升" 
+	 	  imgurl="popupImages/HylamideFinisher哑光保湿控油润饰液30毫.jpg" 
+	 	  simgurl="popupImages/HylamideFinisher哑光保湿控油润饰液30毫.jpg" 
+	 	  text="HylamideFinisher哑光保湿控油润饰液30毫" link="https://wap.koudaitong.com/v2/goods/1ybedjq4s7fxd"/>
+	 <box name="box_3" title="Hylamide 毛孔隐形乳 30毫升" 
+	      imgurl="popupImages/Hylamide毛孔隐形乳30毫升.jpg" 
+	      simgurl="popupImages/Hylamide毛孔隐形乳30毫升.jpg" 
+	      text="Hylamide毛孔隐形乳30毫升" link="https://wap.koudaitong.com/v2/goods/276fd09bdugkh"/>
+</intropic>
  
-	<data name="GLYSOMED护手霜">
+ <data name="HylamideSubQ抗衰老保湿去纹精华">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
@@ -116,37 +124,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
 		    <br />
-		        产品规格： 250ml*2支 + 50ml*1支
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         采购地： 美国
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	</data>
-	
-	<data name="伊丽萨白雅顿时空胶囊精华素2件套装">
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		         产品品牌： Elizabeth Arden
-		  </textformat>
-		</font>
-	  </p>
-	  <br />
-	  <p align="left" style="text-indent:32px;">
-	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
-	      <textformat indent="32" style="text-indent:32px;">
-		    <br />
-		        产品规格： 2罐套装 60粒/罐
+		        产品规格： 30ML
 		  </textformat>
 		</font>
 	  </p>
@@ -161,4 +139,236 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  </p>
 	  <br />
 	</data>
+	
+ <data name="HylamideFinisher妆前透明质酸遮瑕乳30毫升">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Glysomed
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 30ML
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+
+ <data name="HylamideFinisher哑光保湿控油润饰液30毫">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Glysomed
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 30ML
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+	
+ <data name="Hylamide毛孔隐形乳30毫升">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Glysomed
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 30ML
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	</data>
+
+
+
+<intropic name="scene_deciem3" id="" count="4">
+	 <box name="box_0" title="NIOD CAIS 1.00% 蓝铜胜肽特效修复抗衰精华" 
+	 	  imgurl="popupImages/NIODCAIS1.jpg" 
+	 	  simgurl="popupImages/NIODCAIS1.jpg" 
+	 	  text="NIODCAIS1" link="https://wap.koudaitong.com/v2/goods/26z2c1ftdqn0h"/>
+	 <box name="box_1" title="NIOD MMHC 多重分子量透明质酸精华" 
+	      imgurl="popupImages/NIODMMHC多重分子量透明质酸精华.jpg" 
+	      simgurl="popupImages/NIODMMHC多重分子量透明质酸精华.jpg" 
+	      text="NIODMMHC多重分子量透明质酸精华" link="https://wap.koudaitong.com/v2/goods/278y4pwy2cq01"/>
+	 <box name="box_2" title="NIOD FM 黄酮泥面膜 50毫升" 
+	      imgurl="popupImages/NIODFM黄酮泥面膜50毫升.jpg" 
+	      simgurl="popupImages/NIODFM黄酮泥面膜50毫升.jpg" 
+	      text="NIODFM黄酮泥面膜50毫升" link="https://wap.koudaitong.com/v2/goods/35xyi4p58f635"/>
+	 <box name="box_3" title="NIOD HV 补水疫苗 50毫升" 
+	      imgurl="popupImages/NIODHV补水疫苗50毫升.jpg" 
+	      simgurl="popupImages/NIODHV补水疫苗50毫升.jpg" 
+	      text="NIODHV补水疫苗50毫升" link="https://wap.koudaitong.com/v2/goods/2xf9gxyfl6d0h"/>
+ </intropic>
+ 
+ <data name="NIODCAIS1">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Deciem
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 15ML 30ML
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+ </data>
+ 
+ <data name="NIODMMHC多重分子量透明质酸精华">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Deciem
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 15ML 30ML
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+ </data>
+ 
+ <data name="NIODFM黄酮泥面膜50毫升">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Deciem
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 50ML
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+ </data>
+ 
+ <data name="NIODHV补水疫苗50毫升">
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         产品品牌： Deciem
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		        产品规格： 50ML
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+	  <p align="left" style="text-indent:32px;">
+	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
+	      <textformat indent="32" style="text-indent:32px;">
+		    <br />
+		         采购地： 加拿大
+		  </textformat>
+		</font>
+	  </p>
+	  <br />
+ </data>
+
 </krpano>

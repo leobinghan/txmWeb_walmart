@@ -65,7 +65,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
                 autoplaysound="true"
                 
                 button="music|link"
-                linkbutton="1"
+                linkbutton="2"
 
                 change_pic_ratio=""
                 change_pic_ratio_portrait=""

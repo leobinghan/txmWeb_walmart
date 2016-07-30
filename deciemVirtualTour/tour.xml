@@ -141,7 +141,7 @@
 			set(layer[radar].heading, -85);
 		</action>
 
-		<view hlookat="83.975" vlookat="-0.705" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="83.975" vlookat="-0.705" vlookatmax="50" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" />
 
 		<preview url="panos/deciem1.tiles/preview.jpg" />
 
@@ -161,7 +161,67 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="80.679" atv="14.977" linkedscene="scene_deciem2" />
+	
+		<hotspot name="hs1" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_deciem1);"
+	         >
+			<point ath="-204.5" atv="-8" />
+			<point ath="-204.5" atv="-3" />
+			<point ath="-200" atv="-3" />
+			<point ath="-200" atv="-8" />
+		</hotspot>
+		
+		<hotspot name="hs2" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1, scene_deciem1);"
+	         >
+			<point ath="-166.5" atv="-8" />
+			<point ath="-166.5" atv="-2" />
+			<point ath="-164" atv="-2" />
+			<point ath="-164" atv="-8" />
+		</hotspot>
+		
+		<hotspot name="hs3" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(2, scene_deciem1);"
+	         >
+			<point ath="-169" atv="-8" />
+			<point ath="-169" atv="-2" />
+			<point ath="-166.5" atv="-2" />
+			<point ath="-166.5" atv="-8" />
+		</hotspot>
+		
+		<hotspot name="hs4" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(3, scene_deciem1);"
+	         >
+			<point ath="-178" atv="-8" />
+			<point ath="-178" atv="-2" />
+			<point ath="-175" atv="-2" />
+			<point ath="-175" atv="-8" />
+		</hotspot>
 	</scene>
 
 	<scene name="scene_deciem2" title="deciem2" onstart="updateradar();" thumburl="panos/deciem2.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -172,7 +232,7 @@
 			set(layer[radar].heading, 65);
 		</action>
 		
-		<view hlookat="-61.585" vlookat="0.424" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-61.585" vlookat="0.424" vlookatmax="50" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" />
 
 		<preview url="panos/deciem2.tiles/preview.jpg" />
 
@@ -192,20 +252,8 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot name="hs1" fillcolor="543500" fillalpha="0.1" borderwidth="4.0" bordercolor="0x006666FF" borderalpha="1.0" 
-	         depth="1000"
-	         polyline="false"
-	         scaleflying="true"
-	         tx="0"
-	         ty="0"
-	         tz="0"
-	         onclick="open_textbox(0, scene_deciem2);"
-	         >
-			<point ath="-97" atv="-16" />
-			<point ath="-97" atv="30" />
-			<point ath="-118" atv="30" />
-			<point ath="-118" atv="-16" />
-		</hotspot>
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="94.651" atv="4.689" linkedscene="scene_deciem1" />
+		<hotspot name="spot2" style="skin_hotspotstyle_front" ath="-64.647" atv="10.695" linkedscene="scene_deciem3" />
 
 	</scene>
 
@@ -214,10 +262,10 @@
 			set(layer[activespot].parent, spot3);
 			set(layer[radar].parent, spot3);
 			<!-- Second parameter is the angel of initial view in the map -->
-			set(layer[radar].heading, 25);
+			set(layer[radar].heading, -25);
 		</action>
 		
-		<view hlookat="-22.815" vlookat="-0.598" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="29.888" vlookat="0.258" vlookatmax="50" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" />
 
 		<preview url="panos/deciem3.tiles/preview.jpg" />
 
@@ -237,7 +285,67 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-
+		<hotspot name="spot1" style="skin_hotspotstyle_front" ath="-149.155" atv="8.647" linkedscene="scene_deciem2" />
+		
+		<hotspot name="hs1" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_deciem3);"
+	         >
+			<point ath="-69.5" atv="-13" />
+			<point ath="-69.5" atv="-7" />
+			<point ath="-80.5" atv="-7" />
+			<point ath="-80.5" atv="-13" />
+		</hotspot>
+		
+		<hotspot name="hs2" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1, scene_deciem3);"
+	         >
+			<point ath="-64" atv="-13" />
+			<point ath="-64" atv="-7" />
+			<point ath="-69" atv="-7" />
+			<point ath="-69" atv="-13" />
+		</hotspot>
+		
+		<hotspot name="hs3" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(2, scene_deciem3);"
+	         >
+			<point ath="-45.5" atv="-12" />
+			<point ath="-45.5" atv="-7" />
+			<point ath="-50" atv="-7" />
+			<point ath="-50" atv="-12" />
+		</hotspot>
+		
+		<hotspot name="hs4" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(3, scene_deciem3);"
+	         >
+			<point ath="-51" atv="-12" />
+			<point ath="-51" atv="-7" />
+			<point ath="-57" atv="-7" />
+			<point ath="-57" atv="-12" />
+		</hotspot>
 	</scene>
 
 
