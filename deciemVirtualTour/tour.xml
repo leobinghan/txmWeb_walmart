@@ -267,6 +267,66 @@
 			<point ath="-155" atv="-2" />
 			<point ath="-155" atv="-8" />
 		</hotspot>
+		
+		<hotspot name="hs8" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(0, scene_deciem1);"
+	         >
+			<point ath="4" atv="-11" />
+			<point ath="4" atv="-5" />
+			<point ath="-6" atv="-5" />
+			<point ath="-6" atv="-11" />
+		</hotspot>
+		
+		<hotspot name="hs9" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(1, scene_deciem1);"
+	         >
+			<point ath="-7" atv="-11" />
+			<point ath="-7" atv="-5" />
+			<point ath="-17" atv="-5" />
+			<point ath="-17" atv="-11" />
+		</hotspot>
+		
+		<hotspot name="hs10" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(12, scene_deciem1);"
+	         >
+			<point ath="-18" atv="-11" />
+			<point ath="-18" atv="-5" />
+			<point ath="-27" atv="-5" />
+			<point ath="-27" atv="-11" />
+		</hotspot>
+		
+		<hotspot name="hs11" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+	         depth="1000"
+	         polyline="false"
+	         scaleflying="true"
+	         tx="0"
+	         ty="0"
+	         tz="0"
+	         onclick="open_textbox(2, scene_deciem1);"
+	         >
+			<point ath="4" atv="5" />
+			<point ath="4" atv="13" />
+			<point ath="-7" atv="13" />
+			<point ath="-7" atv="5" />
+		</hotspot>
 	</scene>
 
 	<scene name="scene_deciem2" title="deciem2" onstart="updateradar();" thumburl="panos/deciem2.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -511,7 +571,7 @@
 			<point ath="-33" atv="13" />
 		</hotspot>
 		
-		<!-- <hotspot name="hs6" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+		<hotspot name="hs6" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
@@ -524,16 +584,16 @@
 			<point ath="124.5" atv="5" />
 			<point ath="136" atv="5" />
 			<point ath="136" atv="16" />
-		</hotspot> -->
+		</hotspot>
 		
-		<hotspot name="hs6" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
+		<hotspot name="hs7" fillcolor="FFFFFF" fillalpha="0.1" borderwidth="4.0" bordercolor="0x00000000" borderalpha="1.0" 
 	         depth="1000"
 	         polyline="false"
 	         scaleflying="true"
 	         tx="0"
 	         ty="0"
 	         tz="0"
-	         onclick="open_textbox(11, scene_deciem3);"
+	         onclick="open_textbox(12, scene_deciem3);"
 	         >
 			<point ath="-86" atv="-13" />
 			<point ath="-86" atv="-7" />

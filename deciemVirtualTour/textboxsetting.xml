@@ -1119,7 +1119,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  <br />
  </data>
 
-<intropic name="scene_deciem3" id="" count="12">
+<intropic name="scene_deciem3" id="" count="13">
 	 <box name="box_0" title="NIOD CAIS 1.00% 蓝铜胜肽特效修复抗衰精华" 
 	 	  imgurl="popupImages/NIODCAIS1.jpg" 
 	 	  simgurl="popupImages/NIODCAIS1.jpg" 
@@ -1164,11 +1164,11 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	 	  imgurl="popupImages/蓝铜胜肽特效修复抗衰精华7.jpg" 
 	 	  simgurl="popupImages/蓝铜胜肽特效修复抗衰精华7.jpg" 
 	 	  text="蓝铜胜肽特效修复抗衰精华7" link="https://wap.koudaitong.com/v2/goods/1yiss4t1svkch"/>
-<!-- 	 <box name="box_11" title="NIOD SET N°.1 非侵入性微整系列套装N.1" 
+	 <box name="box_11" title="NIOD SET N°.1 非侵入性微整系列套装N.1" 
 	 	  imgurl="popupImages/非侵入性微整系列套装.jpg" 
 	 	  simgurl="popupImages/非侵入性微整系列套装.jpg" 
-	 	  text="非侵入性微整系列套装" link="https://wap.koudaitong.com/v2/goods/2x92depdyof4h"/> -->
-	 <box name="box_11" title="NIOD SS 粘性强力面部清洁凝脂" 
+	 	  text="非侵入性微整系列套装" link="https://wap.koudaitong.com/v2/goods/2x92depdyof4h"/>
+	 <box name="box_12" title="NIOD SS 粘性强力面部清洁凝脂" 
 	 	  imgurl="popupImages/粘性强力面部清洁凝脂.jpg" 
 	 	  simgurl="popupImages/粘性强力面部清洁凝脂.jpg" 
 	 	  text="粘性强力面部清洁凝脂" link="https://wap.koudaitong.com/v2/goods/2g3yrk78o4b1t"/>
@@ -1504,7 +1504,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 	  <br />
  </data>
  
-<!-- <data name="非侵入性微整系列套装">
+<data name="非侵入性微整系列套装">
 	  <p align="left" style="text-indent:32px;">
 	  	<font face="Arial" size="20" style="text-indent:15mm;font-size:15px;">
 	      <textformat indent="32" style="text-indent:32px;">
@@ -1532,7 +1532,7 @@ linkbutton 可设置链接按钮的样式 包括 1 2 3 三个数值可选 也可
 		</font>
 	  </p>
 	  <br />
- </data> -->
+ </data>
  
  <data name="粘性强力面部清洁凝脂">
 	  <p align="left" style="text-indent:32px;">
